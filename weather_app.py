@@ -17,6 +17,8 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+
+
 st.markdown("""
 <div style="font-size:16px; line-height:1.6;">
     This app predicts pollution level categories based on meteorological conditions and pollutant levels.
