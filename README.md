@@ -18,14 +18,12 @@ Leveraging machine learning (LightGBM), the app provides:
 
 ## ⚙️ Installation
 
-
-# Install dependencies
 pip install -r requirements.txt
 
 # Run the application
 streamlit run weather_app.py
 
-
+----------------------------------------------------------------------------------------------------------------
 
 🌟 Features
 Interactive Pollution Predictor: Input environmental parameters and receive immediate pollution level classification
@@ -39,6 +37,7 @@ Feature Importance Visualization: Understand the key factors driving pollution c
 SHAP Analysis: Gain insights into how the model interprets different environmental variables
 
 Correlation Heatmap: Examine relationships between pollutants and meteorological conditions
+
 
 🧪 Model Selection & Performance
 After evaluating multiple classification algorithms, LightGBM was selected for its superior performance.
