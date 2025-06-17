@@ -9,14 +9,13 @@ from datetime import datetime
 
 st.set_page_config(page_title="Air Pollution Classifier", page_icon="🌫️", layout="wide")
 
+st.title("🌫️ Air Pollution Level Classifier")
+
 st.markdown("""
 <div style="font-size:16px; line-height:1.6;">
     🡸 Kindly use the sidebar on the left to switch between prediction and model insights.
 </div>
 """, unsafe_allow_html=True)
-
-
-st.title("🌫️ Air Pollution Level Classifier")
 
 st.markdown("""
 <div style="font-size:16px; line-height:1.6;">
