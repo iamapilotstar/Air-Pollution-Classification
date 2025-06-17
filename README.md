@@ -27,111 +27,111 @@ streamlit run weather_app.py
 
 🌟 Features
 Interactive Pollution Predictor
-Input environmental parameters and receive immediate pollution level classification
+- Input environmental parameters and receive immediate pollution level classification
 
 Comprehensive EDA
-Explore pollution patterns across regions, seasons, and area types
+- Explore pollution patterns across regions, seasons, and area types
 
 Model Performance Analysis
-Compare multiple machine learning models with detailed evaluation metrics
+- Compare multiple machine learning models with detailed evaluation metrics
 
 Feature Importance Visualization
-Understand key factors driving pollution classification
+- Understand key factors driving pollution classification
 
 SHAP Analysis
-Visualize how the model interprets different environmental variables
+- Visualize how the model interprets different environmental variables
 
 Correlation Heatmap
-Examine relationships between pollutants and meteorological factors
+- Examine relationships between pollutants and meteorological factors
 
 🧪 Model Selection & Performance
-Evaluated multiple classification algorithms (LightGBM, CatBoost, Random Forest, Logistic Regression)
+- Evaluated multiple classification algorithms (LightGBM, CatBoost, Random Forest, Logistic Regression)
 
-LightGBM was chosen for its high accuracy, efficiency, and interpretability
+- LightGBM was chosen for its high accuracy, efficiency, and interpretability
 
 📊 Key Findings
 Geographic Disparities
-Urban areas experience ~25% higher pollution than rural regions
+- Urban areas experience ~25% higher pollution than rural regions
 
 Seasonal Patterns
-Winter months show ~40% higher pollution levels compared to summer, especially in urban zones
+- Winter months show ~40% higher pollution levels compared to summer, especially in urban zones
 
 Pollution Distribution
 
-High: 37.2%
+- High: 37.2%
 
-Low: 37.7%
+- Low: 37.7%
 
-Moderate: 25.2%
+- Moderate: 25.2%
 
 Inverse Seasonal Trends
 
-Primary pollutants (SO₂, NO₂, CO) peak in winter
+- Primary pollutants (SO₂, NO₂, CO) peak in winter
 
-Ozone (O₃) peaks in summer
+- Ozone (O₃) peaks in summer
 
 Most Influential Predictors
 
-PM10 concentration
+- PM10 concentration
 
-Temperature–dew point difference
+- Temperature–dew point difference
 
-SO₂ levels
+- SO₂ levels
 
 🧠 Technical Approach
 🔧 Data Preprocessing
-Applied log transformation to reduce skewness in pollutant features
+- Applied log transformation to reduce skewness in pollutant features
 
-Categorical encoding for wind directions and station locations
+- Categorical encoding for wind directions and station locations
 
 🧪 Feature Engineering
-Created new features including:
+- Created new features including:
 
-Temperature–dew point difference
+- Temperature–dew point difference
 
-CO/NO₂ ratio
+- CO/NO₂ ratio
 
-Inverse wind speed
+- Inverse wind speed
 
-Night-time indicator
+- Night-time indicator
 
-Rain flag
+- Rain flag
 
 🧠 Model Training
-Trained multiple models using ensemble learning methods
+- Trained multiple models using ensemble learning methods
 
-Performed hyperparameter tuning via GridSearchCV
+- Performed hyperparameter tuning via GridSearchCV
 
 ✅ Validation Strategy
-Used Stratified 5-Fold Cross-Validation for robust model performance estimation
+- Used Stratified 5-Fold Cross-Validation for robust model performance estimation
 
 🚀 Deployment
-Built an interactive Streamlit web application
+- Built an interactive Streamlit web application
 
 Visualized data and model insights using Plotly charts
 
 🔮 Applications & Impact
 🏥 Public Health Planning
-Enables targeted health advisories based on predicted pollution levels
+- Enables targeted health advisories based on predicted pollution levels
 
 🏙️ Urban Planning
-Informs city zoning and infrastructure development based on pollution trends
+- Informs city zoning and infrastructure development based on pollution trends
 
 📉 Policy Evaluation
-Assesses effectiveness of pollution control strategies over time
+- Assesses effectiveness of pollution control strategies over time
 
 🚶 Individual Awareness
-Helps users make informed decisions about outdoor exposure
+- Helps users make informed decisions about outdoor exposure
 
 📦 Requirements
-Python 3.8+
+- Python 3.8+
 
-Streamlit
+- Streamlit
 
-NumPy
+- NumPy
 
-Pandas
+- Pandas
 
-Scikit-learn
+- Scikit-learn
 
-LightGBM
+- LightGBM
