@@ -26,28 +26,37 @@ streamlit run weather_app.py
 ----------------------------------------------------------------------------------------------------------------
 
 🌟 Features
-Interactive Pollution Predictor: Input environmental parameters and receive immediate pollution level classification
+Interactive Pollution Predictor
+Input environmental parameters and receive immediate pollution level classification
 
-Comprehensive EDA: Explore pollution patterns across regions, seasons, and area types
+Comprehensive EDA
+Explore pollution patterns across regions, seasons, and area types
 
-Model Performance Analysis: Compare various machine learning models with detailed metrics
+Model Performance Analysis
+Compare multiple machine learning models with detailed evaluation metrics
 
-Feature Importance Visualization: Understand the key factors driving pollution classification
+Feature Importance Visualization
+Understand key factors driving pollution classification
 
-SHAP Analysis: Gain insights into how the model interprets different environmental variables
+SHAP Analysis
+Visualize how the model interprets different environmental variables
 
-Correlation Heatmap: Examine relationships between pollutants and meteorological conditions
-
+Correlation Heatmap
+Examine relationships between pollutants and meteorological factors
 
 🧪 Model Selection & Performance
-After evaluating multiple classification algorithms, LightGBM was selected for its superior performance.
+Evaluated multiple classification algorithms (LightGBM, CatBoost, Random Forest, Logistic Regression)
+
+LightGBM was chosen for its high accuracy, efficiency, and interpretability
 
 📊 Key Findings
-Geographic Disparities: Urban areas experience ~25% higher pollution than rural ones
+Geographic Disparities
+Urban areas experience ~25% higher pollution than rural regions
 
-Seasonal Patterns: Winter pollution levels are ~40% higher than summer, especially in urban zones
+Seasonal Patterns
+Winter months show ~40% higher pollution levels compared to summer, especially in urban zones
 
-Pollution Distribution:
+Pollution Distribution
 
 High: 37.2%
 
@@ -55,61 +64,64 @@ Low: 37.7%
 
 Moderate: 25.2%
 
-Inverse Seasonal Trends:
+Inverse Seasonal Trends
 
-SO₂, NO₂, and CO peak in winter
+Primary pollutants (SO₂, NO₂, CO) peak in winter
 
 Ozone (O₃) peaks in summer
 
-Influential Predictors:
+Most Influential Predictors
 
 PM10 concentration
 
-Temp–dew point difference
+Temperature–dew point difference
 
 SO₂ levels
 
 🧠 Technical Approach
-Data Preprocessing:
+🔧 Data Preprocessing
+Applied log transformation to reduce skewness in pollutant features
 
-Log transformation for skewed variables
+Categorical encoding for wind directions and station locations
 
-Label encoding for wind directions and stations
+🧪 Feature Engineering
+Created new features including:
 
-Feature Engineering:
-
-Temperature-dew point difference
+Temperature–dew point difference
 
 CO/NO₂ ratio
 
 Inverse wind speed
 
-Rain flag & night-time indicators
+Night-time indicator
 
-Model Training:
+Rain flag
 
-Ensemble models (LightGBM, CatBoost, etc.)
+🧠 Model Training
+Trained multiple models using ensemble learning methods
 
-Hyperparameter tuning with GridSearchCV
+Performed hyperparameter tuning via GridSearchCV
 
-Validation Strategy:
+✅ Validation Strategy
+Used Stratified 5-Fold Cross-Validation for robust model performance estimation
 
-Stratified 5-fold cross-validation
+🚀 Deployment
+Built an interactive Streamlit web application
 
-Deployment:
-
-Streamlit app for web interface
-
-Plotly for interactive visualizations
+Visualized data and model insights using Plotly charts
 
 🔮 Applications & Impact
-🏥 Public Health Planning: Issue targeted advisories
+🏥 Public Health Planning
+Enables targeted health advisories based on predicted pollution levels
 
-🏙️ Urban Planning: Inform zoning and environmental design
+🏙️ Urban Planning
+Informs city zoning and infrastructure development based on pollution trends
 
-📉 Policy Evaluation: Monitor long-term impact of regulations
+📉 Policy Evaluation
+Assesses effectiveness of pollution control strategies over time
 
-🚶 Individual Awareness: Guide personal exposure decisions
+🚶 Individual Awareness
+Helps users make informed decisions about outdoor exposure
 
 📦 Requirements
 Python 3.8+
@@ -123,5 +135,3 @@ Pandas
 Scikit-learn
 
 LightGBM
-
-Plotly
