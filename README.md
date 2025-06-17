@@ -1,6 +1,6 @@
 # 🌫️ Beijing Air Pollution Level Classifier
 
-**Note**: This app is hosted on a free-tier Streamlit service that may go to sleep after periods of inactivity.  
+> **Note**: This app is hosted on a free-tier Streamlit service that may go to sleep after periods of inactivity.  
 If you encounter a loading delay, please be patient – the app is just waking up! It will be fully responsive after the initial load.
 
 ---
@@ -18,12 +18,13 @@ Leveraging machine learning (LightGBM), the app provides:
 
 ## ⚙️ Installation
 
-```bash
+
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the application
 streamlit run weather_app.py
+
 
 
 🌟 Features
