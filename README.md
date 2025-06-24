@@ -7,7 +7,7 @@ If you encounter a loading delay, please be patient – the app is just waking u
 
 ## 📋 Overview
 
-Live Demo: https://airpollutionclassification.streamlit.app/
+Live Demo:https://airpollutionclassification.streamlit.app/
 
 This interactive application classifies Beijing air pollution levels based on meteorological conditions and pollutant concentrations.  
 Leveraging machine learning (LightGBM), the app provides:
