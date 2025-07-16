@@ -2,7 +2,9 @@
 
 🔗 Live Demo:  https://airpollutionclassification.streamlit.app/
 
-# 💡 The Problem
+🔗 Report:  https://bit.ly/4eS77FV- Air Pollution Report.pdf
+
+# 💡 The Problem: 
 
 City dwellers and policymakers lack real-time, interpretable tools to monitor and act on rising pollution levels.
 Delayed detection of hazardous air quality can lead to increased health risks, environmental damage, and missed opportunities for preventive intervention.
