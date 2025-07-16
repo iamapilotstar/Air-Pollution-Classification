@@ -51,7 +51,7 @@ if view_option == "Introduction":
     st.subheader("📌 Project Introduction")
     
     # Add project logo/image if available
-    intro_image_path = "beijing_pollution_image.png"  # Update with your actual image path
+    intro_image_path = "Images/beijing_pollution_image.png" 
     if os.path.exists(intro_image_path):
         st.image(Image.open(intro_image_path), width=600)
     
@@ -120,7 +120,7 @@ elif view_option == "EDA":
     st.markdown("## 📊 Data Distribution Analysis")
     
     # Make image slightly smaller with width parameter
-    dist_analysis_image = "data_distribution_overview.png"
+    dist_analysis_image = "Images/data_distribution_overview.png"
     if os.path.exists(dist_analysis_image):
         st.image(Image.open(dist_analysis_image), caption="Comprehensive Distribution Analysis", width=650)
     else:
@@ -166,7 +166,7 @@ elif view_option == "EDA":
     
     st.markdown("## 🥧 PM2.5 Pollution Level Distribution")
     
-    pm25_pie_image = "pm25_level_distribution.png"
+    pm25_pie_image = "Images/pm25_level_distribution.png"
     if os.path.exists(pm25_pie_image):
         st.image(Image.open(pm25_pie_image), caption="PM2.5 Pollution Level Distribution", width=550)
     else:
@@ -199,7 +199,7 @@ elif view_option == "EDA":
     
     st.markdown("## 🏙️ PM2.5 Distribution by Area Type")
     
-    area_dist_image = "pm25_by_area_type.png"
+    area_dist_image = "Images/pm25_by_area_type.png"
     if os.path.exists(area_dist_image):
         st.image(Image.open(area_dist_image), caption="PM2.5 Distribution Across Different Area Types", width=650)
     else:
@@ -232,7 +232,7 @@ elif view_option == "EDA":
     
     st.markdown("## 🗺️ Geographical Disadvantage in Air Pollution")
     
-    geo_boxplot_image = "pm25_area_type_boxplot.png"
+    geo_boxplot_image = "Images/pm25_area_type_boxplot.png"
     if os.path.exists(geo_boxplot_image):
         st.image(Image.open(geo_boxplot_image), caption="Distribution of PM2.5 Levels by Area Type", width=650)
     else:
@@ -260,7 +260,7 @@ elif view_option == "EDA":
     
     st.markdown("## 📊 PM2.5 and PM10 Geographic Disparity")
     
-    pm_geo_disparity_image = "pm_by_area_type_barchart.png"
+    pm_geo_disparity_image = "Images/pm_by_area_type_barchart.png"
     if os.path.exists(pm_geo_disparity_image):
         st.image(Image.open(pm_geo_disparity_image), caption="Average PM2.5 and PM10 by Area Type", width=650)
     else:
@@ -310,7 +310,7 @@ elif view_option == "EDA":
     
     st.markdown("## 🌤️ Seasonal Variation of PM2.5 Across Area Types")
     
-    seasonal_variation_image = "seasonal_pm25_by_area.png"
+    seasonal_variation_image = "Images/seasonal_pm25_by_area.png"
     if os.path.exists(seasonal_variation_image):
         st.image(Image.open(seasonal_variation_image), caption="Seasonal Variation of PM2.5 Levels by Area Type", width=650)
     else:
@@ -365,7 +365,7 @@ elif view_option == "EDA":
     
     st.markdown("## 📈 Monthly Trends of Key Pollutants")
     
-    monthly_pollutants_image = "monthly_pollutants_trend.png"
+    monthly_pollutants_image = "Images/monthly_pollutants_trend.png"
     if os.path.exists(monthly_pollutants_image):
         st.image(Image.open(monthly_pollutants_image), caption="Pollution Levels by Month (Median)", width=650)
     else:
@@ -572,7 +572,7 @@ if view_option == "Feature Importance":
 
     This insight helps prioritize key environmental variables for both monitoring and model explainability.
     """)
-    feature_importance_path = "feature_importance.png"
+    feature_importance_path = "Images/feature_importance.png"
     if os.path.exists(feature_importance_path):
         st.image(Image.open(feature_importance_path), caption="Feature Importance - LightGBM", width=700)
     else:
@@ -600,7 +600,7 @@ elif view_option == "SHAP":
     This visualization not only boosts trust in the model but also **aids domain experts** in validating that the model aligns with established environmental science—confirming that pollutant-driven metrics are primary determinants of air quality classification.
     """)
     
-    shap_path = "shap_LightGBM.png"
+    shap_path = "Images/shap_LightGBM.png"
     if os.path.exists(shap_path):
         st.image(Image.open(shap_path), caption="SHAP Summary - LightGBM", width=700)
     else:
@@ -659,7 +659,7 @@ if view_option == "HeatMap":
        
     A reduced feature set for linear/distance models might include: PM10_log, NO2_log, temp_dewp_diff_log, Rain_Flag, PRES_log, month, night_time, and select categorical dummies.
     """)
-    heatmap_path = "heatmap.png"
+    heatmap_path = "Images/heatmap.png"
     if os.path.exists(heatmap_path):
         st.image(Image.open(heatmap_path), caption="Correlation Matrix of Air Quality Variables", width=700)
     else:
