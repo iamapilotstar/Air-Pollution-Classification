@@ -12,7 +12,7 @@ Delayed detection of hazardous air quality can lead to increased health risks, e
 I built a real-time machine learning application that classifies pollution levels into Low, Moderate, or High using Beijing’s weather and pollutant data.
 It leverages LightGBM for high performance and SHAP-based interpretability to ensure transparency and actionable insights for both citizens and urban planners.
 
-##🧪 Technical Approach
+## 📌 Key Results
 
 📊 Model Accuracy: 87.1%
 
@@ -22,7 +22,7 @@ It leverages LightGBM for high performance and SHAP-based interpretability to en
 
 - Optimizing recall helps ensure high-risk pollution events aren't missed — critical for public safety.
 
-🎯 Value Delivered
+## 🎯 Value Delivered
 
 - Combines environmental science and machine learning to deliver a deployable early-warning tool
 
