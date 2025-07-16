@@ -1,26 +1,46 @@
-# 🌫️ Beijing Air Pollution Level Classifier
-
-> **Note**: This app is hosted on a free-tier Streamlit service that may go to sleep after periods of inactivity.  
-If you encounter a loading delay, please be patient – the app is just waking up! It will be fully responsive after the initial load.
-
----
+# 🌍 BreatheSmart: Real-Time ML Forecasting for Air Pollution Trends
 
 ## 📋 Overview
 
 Live Demo: https://airpollutionclassification.streamlit.app/
 
-This interactive application classifies Beijing air pollution levels based on meteorological conditions and pollutant concentrations.  
-Leveraging machine learning (LightGBM), the app provides:
+# 💡 The Problem
 
-- Real-time pollution predictions  
-- Comprehensive data visualizations  
-- Analytical insights into the factors affecting air quality across Beijing  
+City dwellers and policymakers lack real-time, interpretable tools to monitor and act on rising pollution levels.
+Delayed detection of hazardous air quality can lead to increased health risks, environmental damage, and missed opportunities for preventive intervention.
 
----
+# 🔧 The Solution
+
+I built a real-time machine learning application that classifies pollution levels into Low, Moderate, or High using Beijing’s weather and pollutant data.
+It leverages LightGBM for high performance and SHAP-based interpretability to ensure transparency and actionable insights for both citizens and urban planners.
+
+# 🧪 Technical Approach
+
+📊 Model Accuracy: 87.1%
+
+- ROC-AUC: 96.6%
+
+- Recall (High Pollution): 87.3% (optimized to minimize false negatives)
+
+- Optimizing recall helps ensure high-risk pollution events aren't missed — critical for public safety.
+
+🎯 Value Delivered
+
+- Combines environmental science and machine learning to deliver a deployable early-warning tool
+
+- Empowers both the public and local authorities to:
+
+- Issue health advisories
+
+- Optimize traffic flow
+
+- Inform sustainable city policies
+
+- Brings predictive power + explainability = trustworthy, transparent, and responsive environmental monitoring
 
 ## ⚙️ Installation
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 # Run the application
 streamlit run weather_app.py
@@ -125,15 +145,26 @@ Visualized data and model insights using Plotly charts
 🚶 Individual Awareness
 - Helps users make informed decisions about outdoor exposure
 
-📦 Requirements
-- Python 3.8+
 
-- Streamlit
+## 📁 Folder Structure
 
-- NumPy
+```bash
 
-- Pandas
-
-- Scikit-learn
-
-- LightGBM
+Air-Pollution-Classification/
+│
+├── App and Analysis/
+│   ├── weather_app.py
+│   └── Air_Pollution_EDA_Analysis.ipynb
+│
+├── Models/
+│   ├── lightgbm_model.pkl
+│   └── scaler.pkl
+│
+├── Images/
+│   ├── shap_summary.png
+│   ├── feature_importance.png
+│   ├── correlation_heatmap.png
+│   └── pollution_distribution_chart.png
+│
+├── requirements.txt
+└── README.md
