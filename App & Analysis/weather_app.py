@@ -445,7 +445,7 @@ elif view_option == "Metrics Comparison":
         """)
 
     with col2:
-        model_Compare_path = "Model_Comparison.png"
+        model_Compare_path = "Images/Model_Comparison.png"
         if os.path.exists(model_Compare_path):
             st.image(Image.open(model_Compare_path), caption="Model Comparison - Test Accuracy", use_container_width=True)
         else:
