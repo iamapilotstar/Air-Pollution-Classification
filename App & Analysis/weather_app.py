@@ -619,7 +619,7 @@ elif view_option == "Confusion Matrix":
 
     This matrix confirms that the deployed LightGBM model is well-calibrated, with high predictive precision and strong recall performance—validating its selection for real-world deployment.
     """)
-    confusion_matrix_path = "confusion_matrix.png"
+    confusion_matrix_path = "Images/confusion_matrix.png"
     if os.path.exists(confusion_matrix_path):
         st.image(Image.open(confusion_matrix_path), caption="Confusion Matrix - LightGBM", width=700)
     else:
