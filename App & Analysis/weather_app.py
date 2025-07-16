@@ -9,7 +9,7 @@ from datetime import datetime
 
 st.set_page_config(page_title="Air Pollution Classifier", page_icon="🌫️", layout="wide")
 
-st.title("🌫️ Air Pollution Level Classifier")
+st.title("🌍 Air Pollution Classification")
 
 st.markdown("""
 <div style="font-size:16px; line-height:1.6;">
