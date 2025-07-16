@@ -1,20 +1,18 @@
 # 🌍 BreatheSmart: Real-Time ML Forecasting for Air Pollution Trends
 
-## 📋 Overview
-
-Live Demo: https://airpollutionclassification.streamlit.app/
+🔗 Live Demo:  https://airpollutionclassification.streamlit.app/
 
 # 💡 The Problem
 
 City dwellers and policymakers lack real-time, interpretable tools to monitor and act on rising pollution levels.
 Delayed detection of hazardous air quality can lead to increased health risks, environmental damage, and missed opportunities for preventive intervention.
 
-# 🔧 The Solution
+## 🔧 The Solution
 
 I built a real-time machine learning application that classifies pollution levels into Low, Moderate, or High using Beijing’s weather and pollutant data.
 It leverages LightGBM for high performance and SHAP-based interpretability to ensure transparency and actionable insights for both citizens and urban planners.
 
-# 🧪 Technical Approach
+##🧪 Technical Approach
 
 📊 Model Accuracy: 87.1%
 
@@ -45,7 +43,6 @@ It leverages LightGBM for high performance and SHAP-based interpretability to en
 # Run the application
 streamlit run weather_app.py
 
-----------------------------------------------------------------------------------------------------------------
 
 🌟 Features
 Interactive Pollution Predictor
