@@ -24,8 +24,8 @@ st.markdown("""
 # --- Load Single Model and Scaler ---
 @st.cache_data
 def load_model_and_scaler():
-    model_path = "LightGBM.pkl"
-    scaler_path = "StandardScalar.pkl"
+    model_path = "Models/LightGBM.pkl"
+    scaler_path = "Models/StandardScalar.pkl"
 
     if not os.path.exists(model_path) or not os.path.exists(scaler_path):
         st.error("\u26a0\ufe0f Model or Scaler file not found! Please upload 'LightGBM.pkl' and 'StandardScalar.pkl'.")
