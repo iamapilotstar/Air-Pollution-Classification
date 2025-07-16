@@ -2,7 +2,7 @@
 
 🔗 Live Demo:  https://airpollutionclassification.streamlit.app/
 
-🔗 Report:  bit.ly/4eS77FV - Air Pollution Report.pdf
+🔗 Report:  https://bit.ly/4eS77FV - Air Pollution Report.pdf
 
 # 💡 The Problem: 
 
