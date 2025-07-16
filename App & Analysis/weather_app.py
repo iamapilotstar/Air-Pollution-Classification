@@ -31,9 +31,9 @@ def load_model_and_scaler():
         st.error("\u26a0\ufe0f Model or Scaler file not found! Please upload 'LightGBM.pkl' and 'StandardScalar.pkl'.")
         return None, None
 
-    with open(model_path, 'rb') as f:
+    with open(Models/model_path, 'rb') as f:
         model = pickle.load(f)
-    with open(scaler_path, 'rb') as f:
+    with open(Models/scaler_path, 'rb') as f:
         scaler = pickle.load(f)
 
     return model, scaler
