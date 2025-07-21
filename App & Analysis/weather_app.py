@@ -13,7 +13,7 @@ st.title("🌍 Air Pollution Classification")
 
 st.markdown("""
 <div style="font-size:16px; line-height:1.6;">
-    🡸 Kindly use the sidebar on the left to switch between prediction and model insights.
+ ⬅️Kindly use the sidebar on the left to switch between prediction and model insights.
 </div>
 <br>
 <div style="font-size:16px; line-height:1.6;">
