@@ -1,8 +1,7 @@
 # 🌍 BreatheSmart: Real-Time ML Forecasting for Air Pollution Trends
 
-🔗 Live Demo: https://air-pollution-classification.onrender.com
-
-🔗 Report:  https://bit.ly/4eS77FV - Air Pollution Report.pdf
+🔗 **Live Demo:** [View App](https://air-pollution-classification.onrender.com)  
+📄 **Report:** [View Report](https://bit.ly/4eS77FV)
 
 # 💡 The Problem: 
 
