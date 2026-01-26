@@ -1,6 +1,7 @@
 # 🌍 BreatheSmart: Real-Time ML Forecasting for Air Pollution Trends
 
-🔗 [Live Demo](https://heart-diseases-prediction-1-ooal.onrender.com) 
+🔗 [Live Demo](https://heart-diseases-prediction-1-ooal.onrender.com)
+
 📄 [Report](https://drive.google.com/file/d/158WjoG-nkqqQ3YC6FSSkGg1ieO7WXTAT/view?usp=sharing)
 
 # 💡 The Problem: 
